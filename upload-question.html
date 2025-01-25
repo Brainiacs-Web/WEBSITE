@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .results {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Test Results</h1>
+    </header>
+
+    <div class="results">
+        <p>Your score: <span id="score">0</span></p>
+    </div>
+
+    <button onclick="location.href='test.html'">Take Another Test</button>
+
+    <script>
+        // Show the score after the test
+        document.getElementById('score').innerText = 'You scored 18 out of 25'; // Example
+    </script>
+</body>
+</html>
